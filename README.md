@@ -113,8 +113,6 @@ You should receive a response like this:
 ### Contributing
 Contributions are welcome! If you have an idea to improve the API or find any issues, feel free to fork the repository and submit a pull request.
 
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 

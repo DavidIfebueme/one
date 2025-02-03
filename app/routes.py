@@ -26,7 +26,7 @@ def classify_number():
         "digit_sum": get_digit_sum(abs(number)),
         "fun_fact": fun_fact
     }
-    response = Response(response=json.dumps(response_data, indent=2, sort_keys=False), mimetype='application/json')
+    response = Response(response=json.dumps(response_data, indent=2, separators=(',', ': '), sort_keys=False), mimetype='application/json')
     return response, 200
 
 def get_fun_fact(number):
